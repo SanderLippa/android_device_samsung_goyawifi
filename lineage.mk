@@ -2,8 +2,8 @@
 PRODUCT_RELEASE_NAME := goyawifi
 
 # For boot animation from common_full_tablet_wifionly.mk
-TARGET_SCREEN_WIDTH := 600
-TARGET_SCREEN_HEIGHT := 1024
+TARGET_SCREEN_WIDTH := 1024
+TARGET_SCREEN_HEIGHT := 600
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
